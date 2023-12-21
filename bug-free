@@ -1,0 +1,8 @@
+        case .changeLineSpacing(let spacing):
+            newText.lineSpacing = spacing
+            
+        case .changeAlignment(let alignment):
+            newText.alignment = alignment
+        case .changeAnimation(let animation):
+            newState.animation = animation
+        }
